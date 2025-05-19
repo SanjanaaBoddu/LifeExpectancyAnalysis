@@ -60,7 +60,6 @@ The primary goal of this project is to:
 # Key Steps in the Project:
 
 **1. Data Cleaning:**
-
 1. Handled missing values via imputation and dropping.
 
 2. Removed or filled null values in important columns (e.g., GDP, BMI, Schooling).
@@ -69,7 +68,6 @@ The primary goal of this project is to:
 
 
 **2. Exploratory Data Analysis (EDA) :**
-
 1. Analyzed distribution of life expectancy globally.
 
 2. Compared life expectancy across developed vs developing countries.
@@ -97,13 +95,62 @@ The primary goal of this project is to:
 3. Used this to identify which features are statistically significant predictors of life expectancy.
 
 
-# Insights & Recommendations:
+# Observations:
+
+_**1. Life Expectancy is Higher in Developed Countries**_
+
+- Countries marked as “Developed” have an average life expectancy significantly higher than “Developing” countries.
+- Development level influences access to healthcare, nutrition, and infrastructure—key life-saving factors.
+
+_**2. Education (Schooling) is a Strong Positive Predictor**_
+
+- There’s a strong positive correlation between average years of schooling and life expectancy.
+- Better-educated populations tend to have better health awareness, job opportunities, and healthcare access.
+
+_**3. Countries with Higher GDP Live longer**_
+
+- GDP per capita is positively correlated with life expectancy.
+- Because Wealthier nations can invest more in public health, infrastructure, and education—improving quality of life.
+
+_**4. Healthcare Expenditure Impacts Life Expectancy**_
+
+- Countries that spend more on healthcare (as % of GDP) tend to have higher life expectancy.
+- Direct indicator that public health spending saves lives, especially in early childhood and old age care.
+
+_**5. HIV/AIDS and Infant Mortality are Major Threats**_
+
+- High rates of HIV/AIDS drastically reduce life expectancy.
+- Infant deaths are one of the top negative correlators.
+- These are target areas for global health interventions.
+
+_**6. Income Inequality Affects Life Expectancy**_
+
+- “Income composition of resources” (how equally resources are distributed) is positively correlated with life expectancy.
+- It’s not just how rich a country is, but how fairly the resources are shared.
+
+_**7. Alcohol and Thinness Indicators Have Mixed Effects**_
+
+- High alcohol consumption shows a weak but negative effect on life expectancy in developing nations.
+- Malnutrition (thinness in children and adolescents) negatively affects long-term health outcomes.
+
+_**8. Linear Regression Model Predicts Life Expectancy**_
+
+- A simple regression model using features like GDP, schooling, and mortality can predict life expectancy fairly well.
+- This model can be used to estimate how much improvement in a factor (like education) could improve life span.
+
+  
+
+# Conclusion:
 
 1. Education (schooling), income equality, and healthcare access were among the top positive contributors to higher life expectancy.
 
 2. Higher infant mortality and HIV/AIDS prevalence significantly decreased life expectancy.
 
 3. Developing nations showed higher variability, suggesting broader inequalities in public health and income distribution.
+
+4. The project highlights how public policy and global health programs can strategically focus on these variables to extend life spans and improve quality of life in both developing and developed countries. Additionally, a basic predictive model reinforces the importance of targeted investments in schooling, healthcare, and income equality.
+
+
 
 These insights could help:
 
